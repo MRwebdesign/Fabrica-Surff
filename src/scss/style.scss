@@ -1,0 +1,80 @@
+@import "custom";
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+*{margin: 0;padding: 0;}
+
+/*Clases generales*/
+
+nav{
+
+    h1{
+        color: teal;
+    }
+
+    h3{
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .navbar-nav{
+        width: inherit;
+    }
+
+    button{
+        width: 100px;
+    }
+}
+
+#contenedorItems{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+    .box-shadow{
+        box-shadow: 1px 1px 5px 2px lightgray;
+    }
+}
+
+#item{
+    width: 220px;
+    margin-left: 10px;
+
+    #incrementar, #decrementar{
+        padding: 5px;
+    }
+
+    #contadorPlace{
+        margin-top: 15px;
+        padding: 4px;
+        border: solid 1px lightgray;
+    }
+
+    #botonItemDetail{
+        margin-left: 10px;
+        padding: 5px;
+    }
+}
+
+#itemDetailDiv{
+    padding: 20px;
+    margin: 20px;
+
+    img{
+        width: 400px;
+        height: auto;
+    }
+}
+
+#spinner{
+    display: block;
+    position: fixed;
+    top: 50vh;
+    left: 50%;
+}
+
+
+
+

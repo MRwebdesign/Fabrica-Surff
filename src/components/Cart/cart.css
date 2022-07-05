@@ -1,0 +1,72 @@
+#carritoContainer hr{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carritoContainer h1{
+    margin: 30px;
+}
+
+#carritoContainer a{
+    text-decoration: none;
+}
+
+#itemCarrito{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#itemCarrito h5{
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#btnQuitarCarrito{
+    padding: 0px 20px 0px 20px;
+    margin-left: 10px;
+    height: 50px;
+}
+
+#btnIncrementar, #btnReducir{
+    padding: 0px 20px 0px 20px;
+    height: 50px;
+}
+
+#siHayElementos{
+    display: none;
+    flex-direction: row;
+}
+
+#siHayElementos h2{
+    margin: 30px;
+}
+
+
+#contadorInput{
+    padding: 12px;
+    margin-top: 15px;
+    border: solid 1px lightgray;
+}
+
+#modalFormularioCuerpo{
+    background-color: teal;
+}
+
+#formularioCompra input{
+    margin: 10px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    color: black;
+}
+
+#Style-p-No-Productos{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

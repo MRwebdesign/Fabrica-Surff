@@ -1,0 +1,11 @@
+/* make the customizations */
+$theme-colors: (
+    "info": yellow,
+    "danger": red,
+    "primary": lightblue,
+    "gris": #AAAAAA,
+    "turquesa": teal
+);
+
+/* import bootstrap to set changes */
+@import "./node_modules/bootstrap/scss/bootstrap";
